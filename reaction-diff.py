@@ -23,10 +23,10 @@ grid_size=200
 sim_time = 10000
 
 Da = 1.0
-Db = 0.5
+Db = 0.2
 f = 0.055
 k = 0.062 # kill rate
-dt = 2
+dt = 0.5
 # initial grid
 #grid = np.array([np.random.rand(grid_size,grid_size),
 #                 np.zeros((grid_size,grid_size)),
